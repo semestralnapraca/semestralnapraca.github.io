@@ -870,6 +870,11 @@
 }
 
 @media(min-width: 375px) and (max-width: 424px){     
+
+    .registr_menu > .form_block {
+        width: 330px;
+        height: 530px;
+    }
     
     header > #sign_up, header > .nav_bar{
         display: none;
@@ -1189,6 +1194,12 @@
 }
 
 @media (min-width: 320px) and (max-width: 374px){
+
+    .registr_menu > .form_block {
+        width: 330px;
+        height: 530px;
+    }
+
     header > #sign_up, header > .nav_bar{
         display: none;
     }

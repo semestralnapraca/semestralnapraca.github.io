@@ -1,7 +1,7 @@
 .burger_btn{
     display: none;
     position: absolute;
-    z-index: 20;
+    z-index: 6;
     width: 50px;
     height: 32px;
     right: 0;
