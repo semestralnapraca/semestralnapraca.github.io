@@ -76,8 +76,7 @@ header nav{
     background: #3F53D8;
 }
 
-.under_header > .first a:hover,
-.above_footer > div > .start:hover{
+.under_header > .first a:hover{
     background: #3645a4;
 }
 
@@ -92,12 +91,6 @@ header nav{
     padding: 20px 36px;
     color: #080829;
     border: 1px solid rgba(8, 8, 41, 0.2);
-}
-
-.above_footer > div > .start.visited{
-    color: #FFFFFF;
-    border: 1px solid rgba(255, 255, 255);
-    background-color: transparent;
 }
 
 .registr_menu{
@@ -302,11 +295,6 @@ header nav{
 .under_header > .second > div img:hover{
     transform: scale(1.1, 1.1);
 }
-
-
-/* .under_header > .second > img{
-    position: absolute;
-} */
 
 /* ============================ FEATURES ============== */
 
@@ -571,7 +559,7 @@ header nav{
 }
 
 .build_block > .second{
-    background-image: url(../assets_new/foto3.jpg);
+    background-image: url(../assets/mix/foto3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 499px;
@@ -841,84 +829,6 @@ header nav{
     font-size: 17px;
     line-height: 27px;
     color: #545479;
-}
-
-/* ============================ COLLAB_BRANDS ============== */
-
-.collab_brands{
-    margin-top: 150px;
-}
-
-.collab_brands > .txt{
-    width: 620px;
-    margin: 0 auto;
-}
-
-.collab_brands > .txt > p{
-    font-size: 47px;
-    line-height: 56px;
-    text-align: center;
-    letter-spacing: 1.44px;
-    color: #080829;
-}
-
-.collab_brands > .txt > p:nth-child(2){
-   text-align: right;
-}
-
-.collab_brands .collab_brands_flex{
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap-reverse;
-    column-gap: 50px;
-    row-gap: 50px;
-}
-
-.collab_brands .collab_brands_flex > div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 158px;
-    height: 158px;
-    overflow: hidden;
-}
-
-.collab_brands .collab_brands_flex > div:hover > img{
-   transform: scale(1.1, 1.1);
-}
-
-.collab_brands .collab_brands_flex > div:nth-child(1){
-    transform: translateY(-30px);
-}
-
-.collab_brands .collab_brands_flex > div:nth-child(2){
-    transform: translateY(30px);
-}
-
-.collab_brands .collab_brands_flex > div:nth-child(3){
-    transform: translateY(-30px);
-}
-
-.collab_brands .collab_brands_flex > div:nth-child(5){
-    transform: translateY(-30px);
-}
-
-.collab_brands .collab_brands_flex > div:nth-child(6){
-    transform: translateY(-30px);
-}
-
-.collab_brands .collab_brands_flex > div:nth-child(7){
-    transform: translateY(-30px);
-}
-
-.collab_brands .collab_brands_flex > div:nth-child(9){
-    transform: translateY(-20px);
-}
-
-.collab_brands .collab_brands_flex > div:nth-child(11){
-    transform: translateY(-30px);
 }
 
 /* ============================ FOOTER ============== */
