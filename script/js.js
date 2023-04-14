@@ -7,7 +7,16 @@ let closeBurger = document.getElementById('close_burger')
 let demosVideo = document.getElementById('video_open');
 let videoPlay = document.getElementById('video_play');
 let closeVideo = document.querySelector('.close_video');
+let burgerLinks = document.querySelectorAll('.burger_links')
 const body = document.body;
+
+function close(){
+    burgerBtn.classList.remove('open');
+    burgerMenu.classList.remove('open');
+    burgerNav.classList.remove('play')
+    body.style.overflow = 'auto';
+    body.style.height = "auto";
+}
 
 videoPlay.addEventListener('click', () => {
     demosVideo.classList.toggle('play');
@@ -33,10 +42,10 @@ burgerBtn.addEventListener('click', () =>{
     }
 })
 
-closeBurger.addEventListener("click", () => {
-    burgerBtn.classList.remove('open');
-    burgerMenu.classList.remove('open');
-    burgerNav.classList.remove('play')
-    body.style.overflow = 'auto';
-    body.style.height = "auto";
+closeBurger.addEventListener("click", close)
+
+burgerLinks.forEach((item) => {
+    item.addEventListener('click', () => {
+        close()
+    })
 })
