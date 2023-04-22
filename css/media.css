@@ -860,11 +860,15 @@
     }
 
     .under_footer{
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .under_footer > p{
         line-height: 24px;
+    }
+
+    .under_footer > p:nth-child(2){
+        text-align: right;
     }
 
 }
@@ -1191,6 +1195,10 @@
     .under_footer > p{
         line-height: 24px;
     }
+
+    .under_footer > p:nth-child(2){
+        text-align: right;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 374px){
@@ -1514,7 +1522,7 @@
     }
 
     footer .navigation a {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .under_footer{

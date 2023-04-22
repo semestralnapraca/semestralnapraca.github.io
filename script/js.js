@@ -10,6 +10,10 @@ let closeVideo = document.querySelector('.close_video');
 let burgerLinks = document.querySelectorAll('.burger_links')
 const body = document.body;
 
+function pauseClip(media) {
+    media.pause();
+}
+
 function close(){
     burgerBtn.classList.remove('open');
     burgerMenu.classList.remove('open');
