@@ -1,6 +1,4 @@
 'use strtict';
-
-
 const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
@@ -14,9 +12,6 @@ const swiper = new Swiper('.swiper', {
           slideShadows: false,
     },
     spaceBetween: 200,
-    // pagination: {
-    //   el: '.swiper-pagination',
-    // },
   
     navigation: {
       nextEl: '.swiper-button-next',
