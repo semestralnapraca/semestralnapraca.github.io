@@ -728,7 +728,7 @@ header nav{
     margin-right: 186px;
 }
 
-.demos > .first > a{
+.demos > .first > button{
     width: 76px;
     height: 76px;
     background-color: transparent;
@@ -786,7 +786,7 @@ header nav{
     z-index: 10;
 }
 
-.demos .video > iframe{
+.demos .video > #player{
     position: relative;
     z-index: 30;
     border-radius: 30px;
